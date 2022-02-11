@@ -9,7 +9,7 @@
 }
 
 .conButton {
-    color: #aa00ff;
+    background-color: #aa00ff;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
