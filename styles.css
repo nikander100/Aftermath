@@ -18,4 +18,38 @@
     height: 48px;
     width: 100%;
     font-size: 16px;
-  }
+}
+
+  .btn-primary.focus, .btn-primary:focus, .btn-primary:hover {
+    color: #000;
+    background-color: rgb(126,0,189);
+    border-color: rgb(126,0,189);
+}
+  
+  .btn-primary {
+    background-color: #aa00ff;
+    border-color: #aa00ff;
+}
+
+a.bg-primary:focus, a.bg-primary:hover, button.bg-primary:focus, button.bg-primary:hover {
+    background-color: rgb(126,0,189)!important;
+}
+  
+  a:active, a:focus, a:hover {
+    color: #aa00ff;
+}
+  
+  a:hover {
+    color: rgb(126,0,189);
+    text-decoration: underline;
+}
+  
+  a {
+    color: #aa00ff;
+ }
+  
+  .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: rgb(126,0,189);
+    border-color: rgb(126,0,189);
+}
