@@ -23,3 +23,12 @@
 body {
     background-color: black;
 }
+
+.socButton a {
+    color: white;
+    text-decoration: none;
+}
+  
+  .socButton a:hover {
+    color: black;
+}
