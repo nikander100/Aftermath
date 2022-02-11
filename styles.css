@@ -24,11 +24,20 @@ body {
     background-color: black;
 }
 
-.socButton a {
+.conButton a {
     color: white;
     text-decoration: none;
 }
   
-  .socButton a:hover {
+  .conButton a:hover {
     color: black;
+}
+
+.conButtonRow {
+    padding: 16px 0px;
+    max-width: 680px;
+}
+  
+  .conButtonCollum {
+    padding: 0px;
 }
